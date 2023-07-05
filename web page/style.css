@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(to right,rgb(247, 247, 92),rgb(252, 119, 186));
+}
+form{
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    flex-direction:column;
+    background-color: rgba(0, 0, 0, .06);
+    box-shadow: 5px 10px #111111;
+    border-radius: 30px;
+    border-left: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+h1{
+    font-style: 50px;
+   text-align: center;
+   color: white; 
+   letter-spacing: 3px;
+   text-shadow: 3px 1px ;
+   margin: bottom 5%; 
+   opacity: .7;
+}
+label{
+    font-size: 20px;
+    color: white;
+    margin-left: 10%;
+    opacity: 0.7;
+    text-shadow:1px 1px 4px rgba(0, 0, 0, .02) ;
+
+}
+input{
+    width: 70%;
+    margin: 2% auto;
+    margin-bottom:8% ;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: 2px solid white;
+    opacity: .8;
+}
+button{
+    width: 50%;
+    margin: 3% auto;
+    color: white;
+    font-size: 15px ;
+    background: linear-gradient(to right,rgb(247, 247, 92),rgb(252, 119, 186));
+    padding:10px 30px ;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255,255,255, .02);
+    box-shadow:2px 2px 4px rgba(1,1,1,.40);
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+}
+a{
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    opacity: .8;
+}
+input:focus{
+    outline: 3px solid rgb(212, 245, 151);
+    color: rgb(220, 11, 45) ;
+    
+}
